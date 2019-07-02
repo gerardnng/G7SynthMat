@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Questo file viene generato automaticamente dalla Progettazione schema XML. Contiene informazioni sul layout dei componenti nell'area di progettazione.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="2981" viewPortTop="10136" zoom="100">
+    <project_XmlElement left="318" top="238" width="5291" height="2963" selected="0" zOrder="1" index="0" expanded="1">
+        <fileHeader_XmlElement left="-44128" top="3709" width="5292" height="2963" selected="0" zOrder="30" index="0" expanded="0" />
+        <contentHeader_XmlElement left="-38202" top="3709" width="5292" height="2963" selected="0" zOrder="32" index="1" expanded="0" />
+        <types_XmlElement left="3280" top="3709" width="5292" height="2963" selected="0" zOrder="2" index="2" expanded="1">
+            <dataTypes_XmlElement left="-32276" top="7180" width="5292" height="2963" selected="0" zOrder="34" index="0" expanded="0" />
+            <pous_XmlElement left="6243" top="7180" width="5292" height="2963" selected="0" zOrder="4" index="1" expanded="1">
+                <pou_XmlElement left="6243" top="10651" width="5292" height="2963" selected="0" zOrder="6" index="0" expanded="1">
+                    <interface_XmlElement left="-26350" top="14122" width="5292" height="2963" selected="0" zOrder="36" index="0" expanded="0" />
+                    <actions_XmlElement left="-20424" top="14122" width="5292" height="2963" selected="0" zOrder="38" index="1" expanded="0" />
+                    <transitions_XmlElement left="-14498" top="14122" width="5292" height="2963" selected="0" zOrder="40" index="2" expanded="0" />
+                    <body_XmlElement left="12169" top="14122" width="5292" height="2963" selected="0" zOrder="9" index="3" expanded="1">
+                        <_x0028_group1_x0029__XmlChoice left="9206" top="17593" width="5292" height="2963" selected="0" zOrder="12" index="0" expanded="1">
+                            <IL_XmlElement left="-8572" top="21064" width="5292" height="2963" selected="0" zOrder="42" index="0" expanded="0" />
+                            <ST_XmlElement left="-2646" top="21064" width="5292" height="2963" selected="0" zOrder="44" index="1" expanded="0" />
+                            <FBD_XmlElement left="3280" top="21064" width="5292" height="2963" selected="0" zOrder="15" index="2" expanded="0" />
+                            <LD_XmlElement left="15132" top="21064" width="5292" height="2963" selected="0" zOrder="18" index="3" expanded="1">
+                                <ref_x003D_ppx.commonObjects_XmlGroup left="9206" top="24535" width="5292" height="2963" selected="0" zOrder="21" index="0" expanded="0" />
+                                <ref_x003D_ppx.fbdObjects_XmlGroup left="15132" top="24535" width="5292" height="2963" selected="0" zOrder="24" index="1" expanded="0" />
+                                <ref_x003D_ppx.ldObjects_XmlGroup left="21058" top="24535" width="5292" height="2963" selected="0" zOrder="27" index="2" expanded="0" />
+                            </LD_XmlElement>
+                            <SFC_XmlElement left="26984" top="21064" width="5292" height="2963" selected="0" zOrder="46" index="4" expanded="0" />
+                        </_x0028_group1_x0029__XmlChoice>
+                        <documentation_XmlElement left="32910" top="17593" width="5292" height="2963" selected="0" zOrder="49" index="1" expanded="0" />
+                    </body_XmlElement>
+                    <documentation_XmlElement left="38836" top="14122" width="5292" height="2963" selected="0" zOrder="51" index="4" expanded="0" />
+                </pou_XmlElement>
+            </pous_XmlElement>
+        </types_XmlElement>
+        <instances_XmlElement left="44762" top="3709" width="5292" height="2963" selected="0" zOrder="53" index="3" expanded="0" />
+    </project_XmlElement>
+    <dataType_XmlComplexType left="104022" top="254" width="5292" height="2963" selected="0" zOrder="55" index="1" expanded="1">
+        <ref_x003D_ppx.elementaryTypes_XmlGroup left="98096" top="3725" width="5292" height="2963" selected="0" zOrder="56" index="0" expanded="0" />
+        <ref_x003D_ppx.derivedTypes_XmlGroup left="104022" top="3725" width="5292" height="2963" selected="0" zOrder="58" index="1" expanded="0" />
+        <ref_x003D_ppx.extended_XmlGroup left="109948" top="3725" width="5292" height="2963" selected="0" zOrder="60" index="2" expanded="0" />
+    </dataType_XmlComplexType>
+    <rangeSigned_XmlComplexType left="115874" top="254" width="5292" height="2963" selected="0" zOrder="62" index="2" expanded="1" />
+    <rangeUnsigned_XmlComplexType left="121800" top="254" width="5292" height="2963" selected="0" zOrder="63" index="3" expanded="1" />
+    <value_XmlComplexType left="133652" top="254" width="5292" height="2963" selected="0" zOrder="64" index="4" expanded="1">
+        <simpleValue_XmlElement left="127726" top="3725" width="5292" height="2963" selected="0" zOrder="65" index="0" expanded="1" />
+        <arrayValue_XmlElement left="133652" top="3725" width="5292" height="2963" selected="0" zOrder="67" index="1" expanded="1">
+            <value_XmlElement left="133652" top="7196" width="5292" height="2963" selected="0" zOrder="69" index="0" expanded="1" />
+        </arrayValue_XmlElement>
+        <structValue_XmlElement left="139578" top="3725" width="5292" height="2963" selected="0" zOrder="71" index="2" expanded="1">
+            <value_XmlElement left="139578" top="7196" width="5292" height="2963" selected="0" zOrder="73" index="0" expanded="1" />
+        </structValue_XmlElement>
+    </value_XmlComplexType>
+    <body_XmlComplexType left="178097" top="254" width="5292" height="2963" selected="0" zOrder="75" index="5" expanded="1">
+        <_x0028_group1_x0029__XmlChoice left="175134" top="3725" width="5292" height="2963" selected="0" zOrder="76" index="0" expanded="1">
+            <IL_XmlElement left="145504" top="7196" width="5292" height="2963" selected="0" zOrder="78" index="0" expanded="0" />
+            <ST_XmlElement left="151430" top="7196" width="5292" height="2963" selected="0" zOrder="80" index="1" expanded="0" />
+            <FBD_XmlElement left="160319" top="7196" width="5292" height="2963" selected="0" zOrder="82" index="2" expanded="1">
+                <ref_x003D_ppx.commonObjects_XmlGroup left="157356" top="10667" width="5292" height="2963" selected="0" zOrder="84" index="0" expanded="0" />
+                <ref_x003D_ppx.fbdObjects_XmlGroup left="163282" top="10667" width="5292" height="2963" selected="0" zOrder="86" index="1" expanded="0" />
+            </FBD_XmlElement>
+            <LD_XmlElement left="175134" top="7196" width="5292" height="2963" selected="0" zOrder="88" index="3" expanded="1">
+                <ref_x003D_ppx.commonObjects_XmlGroup left="169208" top="10667" width="5292" height="2963" selected="0" zOrder="90" index="0" expanded="0" />
+                <ref_x003D_ppx.fbdObjects_XmlGroup left="175134" top="10667" width="5292" height="2963" selected="0" zOrder="92" index="1" expanded="0" />
+                <ref_x003D_ppx.ldObjects_XmlGroup left="181060" top="10667" width="5292" height="2963" selected="0" zOrder="94" index="2" expanded="0" />
+            </LD_XmlElement>
+            <SFC_XmlElement left="195875" top="7196" width="5292" height="2963" selected="0" zOrder="96" index="4" expanded="1">
+                <ref_x003D_ppx.commonObjects_XmlGroup left="186986" top="10667" width="5292" height="2963" selected="0" zOrder="98" index="0" expanded="0" />
+                <ref_x003D_ppx.fbdObjects_XmlGroup left="192912" top="10667" width="5292" height="2963" selected="0" zOrder="100" index="1" expanded="0" />
+                <ref_x003D_ppx.ldObjects_XmlGroup left="198838" top="10667" width="5292" height="2963" selected="0" zOrder="102" index="2" expanded="0" />
+                <ref_x003D_ppx.sfcObjects_XmlGroup left="204764" top="10667" width="5292" height="2963" selected="0" zOrder="104" index="3" expanded="0" />
+            </SFC_XmlElement>
+        </_x0028_group1_x0029__XmlChoice>
+        <documentation_XmlElement left="210690" top="3725" width="5292" height="2963" selected="0" zOrder="106" index="1" expanded="0" />
+    </body_XmlComplexType>
+    <varList_XmlComplexType left="216616" top="254" width="5292" height="2963" selected="0" zOrder="108" index="6" expanded="1" />
+    <varListPlain_XmlComplexType left="231431" top="254" width="5292" height="2963" selected="0" zOrder="109" index="7" expanded="1">
+        <variable_XmlElement left="228468" top="3725" width="5292" height="2963" selected="0" zOrder="110" index="0" expanded="1">
+            <type_XmlElement left="222542" top="7196" width="5292" height="2963" selected="0" zOrder="112" index="0" expanded="0" />
+            <initialValue_XmlElement left="228468" top="7196" width="5292" height="2963" selected="0" zOrder="114" index="1" expanded="0" />
+            <documentation_XmlElement left="234394" top="7196" width="5292" height="2963" selected="0" zOrder="116" index="2" expanded="0" />
+        </variable_XmlElement>
+        <documentation_XmlElement left="240320" top="3725" width="5292" height="2963" selected="0" zOrder="118" index="1" expanded="0" />
+    </varListPlain_XmlComplexType>
+    <position_XmlComplexType left="246246" top="254" width="5292" height="2963" selected="0" zOrder="120" index="8" expanded="1" />
+    <connection_XmlComplexType left="252172" top="254" width="5292" height="2963" selected="0" zOrder="121" index="9" expanded="1">
+        <position_XmlElement left="252172" top="3725" width="5292" height="2963" selected="0" zOrder="122" index="0" expanded="0" />
+    </connection_XmlComplexType>
+    <connectionPointIn_XmlComplexType left="261061" top="254" width="5292" height="2963" selected="0" zOrder="124" index="10" expanded="1">
+        <relPosition_XmlElement left="258098" top="3725" width="5292" height="2963" selected="0" zOrder="125" index="0" expanded="0" />
+        <_x0028_group1_x0029__XmlChoice left="264024" top="3725" width="5292" height="2963" selected="0" zOrder="127" index="1" expanded="1">
+            <connection_XmlElement left="264024" top="7196" width="5292" height="2963" selected="0" zOrder="129" index="0" expanded="0" />
+        </_x0028_group1_x0029__XmlChoice>
+    </connectionPointIn_XmlComplexType>
+    <connectionPointOut_XmlComplexType left="269950" top="254" width="5292" height="2963" selected="0" zOrder="131" index="11" expanded="1">
+        <relPosition_XmlElement left="269950" top="3725" width="5292" height="2963" selected="0" zOrder="132" index="0" expanded="0" />
+    </connectionPointOut_XmlComplexType>
+    <pouInstance_XmlComplexType left="275876" top="254" width="5292" height="2963" selected="0" zOrder="134" index="12" expanded="1">
+        <documentation_XmlElement left="275876" top="3725" width="5292" height="2963" selected="0" zOrder="135" index="0" expanded="0" />
+    </pouInstance_XmlComplexType>
+    <formattedText_XmlComplexType left="281802" top="254" width="5292" height="2963" selected="0" zOrder="137" index="13" expanded="1" />
+    <elementaryTypes_XmlGroup left="290691" top="254" width="5292" height="2963" selected="0" zOrder="138" index="14" expanded="1">
+        <string_XmlElement left="287728" top="3725" width="5292" height="2963" selected="0" zOrder="139" index="19" expanded="1" />
+        <wstring_XmlElement left="293654" top="3725" width="5292" height="2963" selected="0" zOrder="141" index="20" expanded="1" />
+    </elementaryTypes_XmlGroup>
+    <derivedTypes_XmlGroup left="326247" top="254" width="5292" height="2963" selected="0" zOrder="143" index="15" expanded="1">
+        <array_XmlElement left="302543" top="3725" width="5292" height="2963" selected="0" zOrder="144" index="0" expanded="1">
+            <dimension_XmlElement left="299580" top="7196" width="5292" height="2963" selected="0" zOrder="146" index="0" expanded="0" />
+            <baseType_XmlElement left="305506" top="7196" width="5292" height="2963" selected="0" zOrder="148" index="1" expanded="0" />
+        </array_XmlElement>
+        <derived_XmlElement left="311432" top="3725" width="5292" height="2963" selected="0" zOrder="150" index="1" expanded="1" />
+        <enum_XmlElement left="320321" top="3725" width="5292" height="2963" selected="0" zOrder="152" index="2" expanded="1">
+            <values_XmlElement left="317358" top="7196" width="5292" height="2963" selected="0" zOrder="154" index="0" expanded="1">
+                <value_XmlElement left="317358" top="10667" width="5292" height="2963" selected="0" zOrder="156" index="0" expanded="1" />
+            </values_XmlElement>
+            <baseType_XmlElement left="323284" top="7196" width="5292" height="2963" selected="0" zOrder="158" index="1" expanded="0" />
+        </enum_XmlElement>
+        <struct_XmlElement left="329210" top="3725" width="5292" height="2963" selected="0" zOrder="160" index="3" expanded="0" />
+        <subrangeSigned_XmlElement left="338099" top="3725" width="5292" height="2963" selected="0" zOrder="162" index="4" expanded="1">
+            <range_XmlElement left="335136" top="7196" width="5292" height="2963" selected="0" zOrder="164" index="0" expanded="0" />
+            <baseType_XmlElement left="341062" top="7196" width="5292" height="2963" selected="0" zOrder="166" index="1" expanded="0" />
+        </subrangeSigned_XmlElement>
+        <subrangeUnsigned_XmlElement left="349951" top="3725" width="5292" height="2963" selected="0" zOrder="168" index="5" expanded="1">
+            <range_XmlElement left="346988" top="7196" width="5292" height="2963" selected="0" zOrder="170" index="0" expanded="0" />
+            <baseType_XmlElement left="352914" top="7196" width="5292" height="2963" selected="0" zOrder="172" index="1" expanded="0" />
+        </subrangeUnsigned_XmlElement>
+    </derivedTypes_XmlGroup>
+    <extended_XmlGroup left="358840" top="254" width="5292" height="2963" selected="0" zOrder="174" index="16" expanded="1">
+        <pointer_XmlElement left="358840" top="3725" width="5292" height="2963" selected="0" zOrder="175" index="0" expanded="1">
+            <baseType_XmlElement left="358840" top="7196" width="5292" height="2963" selected="0" zOrder="177" index="0" expanded="0" />
+        </pointer_XmlElement>
+    </extended_XmlGroup>
+    <commonObjects_XmlGroup left="421063" top="254" width="5292" height="2963" selected="0" zOrder="179" index="17" expanded="1">
+        <comment_XmlElement left="370692" top="3725" width="5292" height="2963" selected="0" zOrder="180" index="0" expanded="1">
+            <position_XmlElement left="364766" top="7196" width="5292" height="2963" selected="0" zOrder="182" index="0" expanded="0" />
+            <content_XmlElement left="370692" top="7196" width="5292" height="2963" selected="0" zOrder="184" index="1" expanded="0" />
+            <documentation_XmlElement left="376618" top="7196" width="5292" height="2963" selected="0" zOrder="186" index="2" expanded="0" />
+        </comment_XmlElement>
+        <error_XmlElement left="388470" top="3725" width="5292" height="2963" selected="0" zOrder="188" index="1" expanded="1">
+            <position_XmlElement left="382544" top="7196" width="5292" height="2963" selected="0" zOrder="190" index="0" expanded="0" />
+            <content_XmlElement left="388470" top="7196" width="5292" height="2963" selected="0" zOrder="192" index="1" expanded="0" />
+            <documentation_XmlElement left="394396" top="7196" width="5292" height="2963" selected="0" zOrder="194" index="2" expanded="0" />
+        </error_XmlElement>
+        <connector_XmlElement left="406248" top="3725" width="5292" height="2963" selected="0" zOrder="196" index="2" expanded="1">
+            <position_XmlElement left="400322" top="7196" width="5292" height="2963" selected="0" zOrder="198" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="406248" top="7196" width="5292" height="2963" selected="0" zOrder="200" index="1" expanded="0" />
+            <documentation_XmlElement left="412174" top="7196" width="5292" height="2963" selected="0" zOrder="202" index="2" expanded="0" />
+        </connector_XmlElement>
+        <continuation_XmlElement left="424026" top="3725" width="5292" height="2963" selected="0" zOrder="204" index="3" expanded="1">
+            <position_XmlElement left="418100" top="7196" width="5292" height="2963" selected="0" zOrder="206" index="0" expanded="0" />
+            <connectionPointOut_XmlElement left="424026" top="7196" width="5292" height="2963" selected="0" zOrder="208" index="1" expanded="0" />
+            <documentation_XmlElement left="429952" top="7196" width="5292" height="2963" selected="0" zOrder="210" index="2" expanded="0" />
+        </continuation_XmlElement>
+        <actionBlock_XmlElement left="456619" top="3725" width="5292" height="2963" selected="0" zOrder="212" index="4" expanded="1">
+            <position_XmlElement left="435878" top="7196" width="5292" height="2963" selected="0" zOrder="214" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="441804" top="7196" width="5292" height="2963" selected="0" zOrder="216" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="447730" top="7196" width="5292" height="2963" selected="0" zOrder="218" index="2" expanded="0" />
+            <action_XmlElement left="462545" top="7196" width="5292" height="2963" selected="0" zOrder="220" index="3" expanded="1">
+                <reference_XmlElement left="453656" top="10667" width="5292" height="2963" selected="0" zOrder="222" index="0" expanded="1" />
+                <inline_XmlElement left="459582" top="10667" width="5292" height="2963" selected="0" zOrder="224" index="1" expanded="0" />
+                <documentation_XmlElement left="465508" top="10667" width="5292" height="2963" selected="0" zOrder="226" index="2" expanded="0" />
+                <qualifier_XmlAttribute left="471434" top="10667" width="5292" height="847" selected="0" zOrder="228" index="3" expanded="1">
+                    <_x0028_qualifier_x0029__XmlSimpleType left="471434" top="12022" width="5292" height="2963" selected="0" zOrder="230" index="0" expanded="1" />
+                </qualifier_XmlAttribute>
+            </action_XmlElement>
+            <documentation_XmlElement left="477360" top="7196" width="5292" height="2963" selected="0" zOrder="232" index="4" expanded="0" />
+        </actionBlock_XmlElement>
+    </commonObjects_XmlGroup>
+    <fbdObjects_XmlGroup left="560324" top="254" width="5292" height="2963" selected="0" zOrder="234" index="18" expanded="1">
+        <block_XmlElement left="506990" top="3725" width="5292" height="2963" selected="0" zOrder="235" index="0" expanded="1">
+            <position_XmlElement left="483286" top="7196" width="5292" height="2963" selected="0" zOrder="237" index="0" expanded="0" />
+            <inputVariables_XmlElement left="492175" top="7196" width="5292" height="2963" selected="0" zOrder="239" index="1" expanded="1">
+                <variable_XmlElement left="492175" top="10667" width="5292" height="2963" selected="0" zOrder="241" index="0" expanded="1">
+                    <connectionPointIn_XmlElement left="489212" top="14138" width="5292" height="2963" selected="0" zOrder="243" index="0" expanded="0" />
+                    <documentation_XmlElement left="495138" top="14138" width="5292" height="2963" selected="0" zOrder="245" index="1" expanded="0" />
+                </variable_XmlElement>
+            </inputVariables_XmlElement>
+            <inOutVariables_XmlElement left="506990" top="7196" width="5292" height="2963" selected="0" zOrder="247" index="2" expanded="1">
+                <variable_XmlElement left="506990" top="10667" width="5292" height="2963" selected="0" zOrder="249" index="0" expanded="1">
+                    <connectionPointIn_XmlElement left="501064" top="14138" width="5292" height="2963" selected="0" zOrder="251" index="0" expanded="0" />
+                    <connectionPointOut_XmlElement left="506990" top="14138" width="5292" height="2963" selected="0" zOrder="253" index="1" expanded="0" />
+                    <documentation_XmlElement left="512916" top="14138" width="5292" height="2963" selected="0" zOrder="255" index="2" expanded="0" />
+                </variable_XmlElement>
+            </inOutVariables_XmlElement>
+            <outputVariables_XmlElement left="521805" top="7196" width="5292" height="2963" selected="0" zOrder="257" index="3" expanded="1">
+                <variable_XmlElement left="521805" top="10667" width="5292" height="2963" selected="0" zOrder="259" index="0" expanded="1">
+                    <connectionPointOut_XmlElement left="518842" top="14138" width="5292" height="2963" selected="0" zOrder="261" index="0" expanded="0" />
+                    <documentation_XmlElement left="524768" top="14138" width="5292" height="2963" selected="0" zOrder="263" index="1" expanded="0" />
+                </variable_XmlElement>
+            </outputVariables_XmlElement>
+            <documentation_XmlElement left="530694" top="7196" width="5292" height="2963" selected="0" zOrder="265" index="4" expanded="0" />
+        </block_XmlElement>
+        <inVariable_XmlElement left="542546" top="3725" width="5292" height="2963" selected="0" zOrder="267" index="1" expanded="1">
+            <position_XmlElement left="536620" top="7196" width="5292" height="2963" selected="0" zOrder="269" index="0" expanded="0" />
+            <connectionPointOut_XmlElement left="542546" top="7196" width="5292" height="2963" selected="0" zOrder="271" index="1" expanded="0" />
+            <documentation_XmlElement left="548472" top="7196" width="5292" height="2963" selected="0" zOrder="273" index="3" expanded="0" />
+        </inVariable_XmlElement>
+        <outVariable_XmlElement left="560324" top="3725" width="5292" height="2963" selected="0" zOrder="275" index="2" expanded="1">
+            <position_XmlElement left="554398" top="7196" width="5292" height="2963" selected="0" zOrder="277" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="560324" top="7196" width="5292" height="2963" selected="0" zOrder="279" index="1" expanded="0" />
+            <documentation_XmlElement left="566250" top="7196" width="5292" height="2963" selected="0" zOrder="281" index="3" expanded="0" />
+        </outVariable_XmlElement>
+        <inOutVariable_XmlElement left="581065" top="3725" width="5292" height="2963" selected="0" zOrder="283" index="3" expanded="1">
+            <position_XmlElement left="572176" top="7196" width="5292" height="2963" selected="0" zOrder="285" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="578102" top="7196" width="5292" height="2963" selected="0" zOrder="287" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="584028" top="7196" width="5292" height="2963" selected="0" zOrder="289" index="2" expanded="0" />
+            <documentation_XmlElement left="589954" top="7196" width="5292" height="2963" selected="0" zOrder="291" index="4" expanded="0" />
+        </inOutVariable_XmlElement>
+        <label_XmlElement left="598843" top="3725" width="5292" height="2963" selected="0" zOrder="293" index="4" expanded="1">
+            <position_XmlElement left="595880" top="7196" width="5292" height="2963" selected="0" zOrder="295" index="0" expanded="0" />
+            <documentation_XmlElement left="601806" top="7196" width="5292" height="2963" selected="0" zOrder="297" index="1" expanded="0" />
+        </label_XmlElement>
+        <jump_XmlElement left="613658" top="3725" width="5292" height="2963" selected="0" zOrder="299" index="5" expanded="1">
+            <position_XmlElement left="607732" top="7196" width="5292" height="2963" selected="0" zOrder="301" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="613658" top="7196" width="5292" height="2963" selected="0" zOrder="303" index="1" expanded="0" />
+            <documentation_XmlElement left="619584" top="7196" width="5292" height="2963" selected="0" zOrder="305" index="2" expanded="0" />
+        </jump_XmlElement>
+        <return_XmlElement left="631436" top="3725" width="5292" height="2963" selected="0" zOrder="307" index="6" expanded="1">
+            <position_XmlElement left="625510" top="7196" width="5292" height="2963" selected="0" zOrder="309" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="631436" top="7196" width="5292" height="2963" selected="0" zOrder="311" index="1" expanded="0" />
+            <documentation_XmlElement left="637362" top="7196" width="5292" height="2963" selected="0" zOrder="313" index="2" expanded="0" />
+        </return_XmlElement>
+    </fbdObjects_XmlGroup>
+    <ldObjects_XmlGroup left="681807" top="254" width="5292" height="2963" selected="0" zOrder="315" index="19" expanded="1">
+        <leftPowerRail_XmlElement left="649214" top="3725" width="5292" height="2963" selected="0" zOrder="316" index="0" expanded="1">
+            <position_XmlElement left="643288" top="7196" width="5292" height="2963" selected="0" zOrder="318" index="0" expanded="0" />
+            <connectionPointOut_XmlElement left="649214" top="7196" width="5292" height="2963" selected="0" zOrder="320" index="1" expanded="1" />
+            <documentation_XmlElement left="655140" top="7196" width="5292" height="2963" selected="0" zOrder="322" index="2" expanded="0" />
+        </leftPowerRail_XmlElement>
+        <rightPowerRail_XmlElement left="666992" top="3725" width="5292" height="2963" selected="0" zOrder="324" index="1" expanded="1">
+            <position_XmlElement left="661066" top="7196" width="5292" height="2963" selected="0" zOrder="326" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="666992" top="7196" width="5292" height="2963" selected="0" zOrder="328" index="1" expanded="0" />
+            <documentation_XmlElement left="672918" top="7196" width="5292" height="2963" selected="0" zOrder="330" index="2" expanded="0" />
+        </rightPowerRail_XmlElement>
+        <coil_XmlElement left="687733" top="3725" width="5292" height="2963" selected="0" zOrder="332" index="2" expanded="1">
+            <position_XmlElement left="678844" top="7196" width="5292" height="2963" selected="0" zOrder="334" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="684770" top="7196" width="5292" height="2963" selected="0" zOrder="336" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="690696" top="7196" width="5292" height="2963" selected="0" zOrder="338" index="2" expanded="0" />
+            <documentation_XmlElement left="696622" top="7196" width="5292" height="2963" selected="0" zOrder="340" index="4" expanded="0" />
+        </coil_XmlElement>
+        <contact_XmlElement left="711437" top="3725" width="5292" height="2963" selected="0" zOrder="342" index="3" expanded="1">
+            <position_XmlElement left="702548" top="7196" width="5292" height="2963" selected="0" zOrder="344" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="708474" top="7196" width="5292" height="2963" selected="0" zOrder="346" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="714400" top="7196" width="5292" height="2963" selected="0" zOrder="348" index="2" expanded="0" />
+            <documentation_XmlElement left="720326" top="7196" width="5292" height="2963" selected="0" zOrder="350" index="4" expanded="0" />
+        </contact_XmlElement>
+    </ldObjects_XmlGroup>
+    <sfcObjects_XmlGroup left="829957" top="254" width="5292" height="2963" selected="0" zOrder="352" index="20" expanded="1">
+        <step_XmlElement left="738104" top="3725" width="5292" height="2963" selected="0" zOrder="353" index="0" expanded="1">
+            <position_XmlElement left="726252" top="7196" width="5292" height="2963" selected="0" zOrder="355" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="732178" top="7196" width="5292" height="2963" selected="0" zOrder="357" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="738104" top="7196" width="5292" height="2963" selected="0" zOrder="359" index="2" expanded="1" />
+            <connectionPointOutAction_XmlElement left="744030" top="7196" width="5292" height="2963" selected="0" zOrder="361" index="3" expanded="1" />
+            <documentation_XmlElement left="749956" top="7196" width="5292" height="2963" selected="0" zOrder="363" index="4" expanded="0" />
+        </step_XmlElement>
+        <macroStep_XmlElement left="767734" top="3725" width="5292" height="2963" selected="0" zOrder="365" index="1" expanded="1">
+            <position_XmlElement left="755882" top="7196" width="5292" height="2963" selected="0" zOrder="367" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="761808" top="7196" width="5292" height="2963" selected="0" zOrder="369" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="767734" top="7196" width="5292" height="2963" selected="0" zOrder="371" index="2" expanded="0" />
+            <body_XmlElement left="773660" top="7196" width="5292" height="2963" selected="0" zOrder="373" index="3" expanded="0" />
+            <documentation_XmlElement left="779586" top="7196" width="5292" height="2963" selected="0" zOrder="375" index="4" expanded="0" />
+        </macroStep_XmlElement>
+        <jumpStep_XmlElement left="791438" top="3725" width="5292" height="2963" selected="0" zOrder="377" index="2" expanded="1">
+            <position_XmlElement left="785512" top="7196" width="5292" height="2963" selected="0" zOrder="379" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="791438" top="7196" width="5292" height="2963" selected="0" zOrder="381" index="1" expanded="0" />
+            <documentation_XmlElement left="797364" top="7196" width="5292" height="2963" selected="0" zOrder="383" index="2" expanded="0" />
+        </jumpStep_XmlElement>
+        <transition_XmlElement left="821068" top="3725" width="5292" height="2963" selected="0" zOrder="385" index="3" expanded="1">
+            <position_XmlElement left="803290" top="7196" width="5292" height="2963" selected="0" zOrder="387" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="809216" top="7196" width="5292" height="2963" selected="0" zOrder="389" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="815142" top="7196" width="5292" height="2963" selected="0" zOrder="391" index="2" expanded="0" />
+            <condition_XmlElement left="826994" top="7196" width="5292" height="2963" selected="0" zOrder="393" index="3" expanded="1">
+                <reference_XmlElement left="821068" top="10667" width="5292" height="2963" selected="0" zOrder="395" index="0" expanded="1" />
+                <connection_XmlElement left="826994" top="10667" width="5292" height="2963" selected="0" zOrder="397" index="1" expanded="0" />
+                <inline_XmlElement left="832920" top="10667" width="5292" height="2963" selected="0" zOrder="399" index="2" expanded="1" />
+            </condition_XmlElement>
+            <documentation_XmlElement left="838846" top="7196" width="5292" height="2963" selected="0" zOrder="401" index="4" expanded="0" />
+        </transition_XmlElement>
+        <selectionDivergence_XmlElement left="853661" top="3725" width="5292" height="2963" selected="0" zOrder="403" index="4" expanded="1">
+            <position_XmlElement left="844772" top="7196" width="5292" height="2963" selected="0" zOrder="405" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="850698" top="7196" width="5292" height="2963" selected="0" zOrder="407" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="856624" top="7196" width="5292" height="2963" selected="0" zOrder="409" index="2" expanded="1" />
+            <documentation_XmlElement left="862550" top="7196" width="5292" height="2963" selected="0" zOrder="411" index="3" expanded="0" />
+        </selectionDivergence_XmlElement>
+        <selectionConvergence_XmlElement left="877365" top="3725" width="5292" height="2963" selected="0" zOrder="413" index="5" expanded="1">
+            <position_XmlElement left="868476" top="7196" width="5292" height="2963" selected="0" zOrder="415" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="874402" top="7196" width="5292" height="2963" selected="0" zOrder="417" index="1" expanded="1" />
+            <connectionPointOut_XmlElement left="880328" top="7196" width="5292" height="2963" selected="0" zOrder="419" index="2" expanded="0" />
+            <documentation_XmlElement left="886254" top="7196" width="5292" height="2963" selected="0" zOrder="421" index="3" expanded="0" />
+        </selectionConvergence_XmlElement>
+        <simultaneousDivergence_XmlElement left="901069" top="3725" width="5292" height="2963" selected="0" zOrder="423" index="6" expanded="1">
+            <position_XmlElement left="892180" top="7196" width="5292" height="2963" selected="0" zOrder="425" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="898106" top="7196" width="5292" height="2963" selected="0" zOrder="427" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="904032" top="7196" width="5292" height="2963" selected="0" zOrder="429" index="2" expanded="1" />
+            <documentation_XmlElement left="909958" top="7196" width="5292" height="2963" selected="0" zOrder="431" index="3" expanded="0" />
+        </simultaneousDivergence_XmlElement>
+        <simultaneousConvergence_XmlElement left="924773" top="3725" width="5292" height="2963" selected="0" zOrder="433" index="7" expanded="1">
+            <position_XmlElement left="915884" top="7196" width="5292" height="2963" selected="0" zOrder="435" index="0" expanded="0" />
+            <connectionPointIn_XmlElement left="921810" top="7196" width="5292" height="2963" selected="0" zOrder="437" index="1" expanded="0" />
+            <connectionPointOut_XmlElement left="927736" top="7196" width="5292" height="2963" selected="0" zOrder="439" index="2" expanded="0" />
+            <documentation_XmlElement left="933662" top="7196" width="5292" height="2963" selected="0" zOrder="441" index="3" expanded="0" />
+        </simultaneousConvergence_XmlElement>
+    </sfcObjects_XmlGroup>
+    <edgeModifierType_XmlSimpleType left="939588" top="254" width="5292" height="2963" selected="0" zOrder="443" index="21" expanded="1" />
+    <storageModifierType_XmlSimpleType left="945514" top="254" width="5292" height="2963" selected="0" zOrder="444" index="22" expanded="1" />
+    <pouType_XmlSimpleType left="951440" top="254" width="5292" height="2963" selected="0" zOrder="445" index="23" expanded="1" />
+</XSDDesignerLayout>

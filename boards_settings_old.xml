@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<boards>
+	<board name="EasyDspic4A">
+		<device name="EasyDspic4A" family = "dsPIC" processor = "dsPIC30F4013"/>
+		//NEW OPTION
+		<inputs>
+			<option value="%In_0" pin="IN_PIN_0"/>
+			<option value="%In_1" pin="IN_PIN_1"/>
+			<option value="%In_2" pin="IN_PIN_2"/>
+			<option value="%In_3" pin="IN_PIN_3"/>
+			<option value="%In_4" pin="IN_PIN_4"/>
+			<option value="%In_5" pin="IN_PIN_5"/>
+			<option value="%In_6" pin="IN_PIN_6"/>
+			<option value="%In_7" pin="IN_PIN_7"/>
+			<option value="%In_8" pin="IN_PIN_8"/>
+			<option value="%In_9" pin="IN_PIN_9"/>
+			<option value="%In_10" pin="IN_PIN_10"/>
+			<option value="%In_11" pin="IN_PIN_11"/>
+			<option value="%In_12" pin="IN_PIN_12"/>
+			
+		</inputs>
+		<outputs>
+			<option value="%Out_0" pin="OUT_PIN_0"/>
+			<option value="%Out_1" pin="OUT_PIN_1"/>
+			<option value="%Out_2" pin="OUT_PIN_2"/>
+			<option value="%Out_3" pin="OUT_PIN_3"/>
+			<option value="%Out_4" pin="OUT_PIN_4"/>
+			<option value="%Out_5" pin="OUT_PIN_5"/>
+			<option value="%Out_6" pin="OUT_PIN_6"/>
+			
+			<option value="%Out_7" pin="OUT_PIN_7"/>
+		</outputs>
+		
+		
+		//OLD OPTION
+		<inputs>
+			<option value="%In_0" pin="PORTBbits.RB0"/>
+			<option value="%In_1" pin="PORTBbits.RB1"/>
+			<option value="%In_2" pin="PORTBbits.RB2"/>
+			<option value="%In_3" pin="PORTBbits.RB3"/>
+			<option value="%In_4" pin="PORTBbits.RB4"/>
+			<option value="%In_5" pin="PORTBbits.RB5"/>
+			<option value="%In_6" pin="PORTBbits.RB6"/>
+			<option value="%In_7" pin="PORTBbits.RB7"/>
+			<option value="%In_8" pin="PORTBbits.RB8"/>
+			<option value="%In_9" pin="PORTBbits.RB9"/>
+			<option value="%In_10" pin="PORTBbits.RB10"/>
+			<option value="%In_11" pin="PORTBbits.RB11"/>
+			<option value="%In_12" pin="PORTBbits.RB12"/>
+
+		</inputs>
+		<outputs>
+			<option value="%Out_0" pin="PORTFbits.RF0"/>
+			<option value="%Out_1" pin="PORTFbits.RF1"/>
+			<option value="%Out_2" pin="PORTFbits.RF2"/>
+			<option value="%Out_3" pin="PORTFbits.RF3"/>
+			<option value="%Out_4" pin="PORTFbits.RF4"/>
+			<option value="%Out_5" pin="PORTFbits.RF5"/>
+			<option value="%Out_6" pin="PORTFbits.RF6"/>
+			
+			<option value="%Out_7" pin="PORTDbits.RD8"/>
+		</outputs>
+		<sourcecode>
+			<headerSource path="..\\Grafcet_2016_01\\src\\use_static\\head_DataEEPROM.c"/>
+			<queueSource path="..\\Grafcet_2016_01\\src\\use_static\\queue_DataEEPROM.c"/>
+		</sourcecode>
+		<compiler path="C:\\Program Files (x86)\\Microchip\\MPLAB C30\\bin\\pic30-gcc.exe"/>
+		<makefile path="build_commands\\g7_compile_dspic.bat"/>
+	</board>
+	
+	<board name="Arduino">
+		<device name="Arduino" family = "Arduino_Fam" processor = "MSP430"/>
+		//NEW OPTION
+		<inputs>
+			<option value="%In_0" pin="IN_PIN_0"/>
+			<option value="%In_1" pin="IN_PIN_1"/>
+			<option value="%In_2" pin="IN_PIN_2"/>
+			<option value="%In_3" pin="IN_PIN_3"/>
+			<option value="%In_4" pin="IN_PIN_4"/>
+			<option value="%In_5" pin="IN_PIN_5"/>
+			<option value="%In_6" pin="IN_PIN_6"/>
+			
+			<option value="%In_7" pin="IN_PIN_17"/>
+			<option value="%In_8" pin="IN_PIN_18"/>
+			<option value="%In_9" pin="IN_PIN_19"/>
+			<option value="%In_10" pin="IN_PIN_20"/>
+			<option value="%In_11" pin="IN_PIN_21"/>
+		</inputs>
+		<outputs>
+			<option value="%Out_0" pin="OUT_PIN_0"/>
+			<option value="%Out_1" pin="OUT_PIN_1"/>
+			<option value="%Out_2" pin="OUT_PIN_2"/>
+			<option value="%Out_3" pin="OUT_PIN_3"/>
+			<option value="%Out_4" pin="OUT_PIN_4"/>
+			<option value="%Out_5" pin="OUT_PIN_5"/>
+			<option value="%Out_6" pin="OUT_PIN_6"/>
+			
+			<option value="%Out_7" pin="OUT_PIN_7"/>
+			<option value="%Out_8" pin="OUT_PIN_8"/>
+			<option value="%Out_9" pin="OUT_PIN_9"/>
+		</outputs>
+		
+		//OLD OPTION
+		<inputs>
+			<option value="%In_0" pin="0"/>
+			<option value="%In_1" pin="1"/>
+			<option value="%In_2" pin="2"/>
+			<option value="%In_3" pin="3"/>
+			<option value="%In_4" pin="4"/>
+			<option value="%In_5" pin="5"/>
+			<option value="%In_6" pin="6"/>
+			
+			<option value="%In_7" pin="17"/>
+			<option value="%In_8" pin="18"/>
+			<option value="%In_9" pin="19"/>
+			<option value="%In_10" pin="20"/>
+			<option value="%In_11" pin="21"/>
+		</inputs>
+		<outputs>
+			<option value="%Out_0" pin="7"/>
+			<option value="%Out_1" pin="8"/>
+			<option value="%Out_2" pin="9"/>
+			<option value="%Out_3" pin="10"/>
+			<option value="%Out_4" pin="11"/>
+			<option value="%Out_5" pin="12"/>
+			<option value="%Out_6" pin="13"/>
+			
+			<option value="%Out_7" pin="14"/>
+			<option value="%Out_8" pin="15"/>
+			<option value="%Out_9" pin="16"/>
+		</outputs>
+		<sourcecode>
+			<headerSource path="..\\Arduino\\use_static\\Arduino_Grafcet_Header.c"/>
+			<queueSource path="..\\Arduino\\use_static\\Arduino_Grafcet_Queue.c"/>
+		</sourcecode>
+		<compiler path ="C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\bin\\"/>
+		<makefile path="build_commands\\g7_compile_arduino.bat"/> 
+	</board>
+</boards>

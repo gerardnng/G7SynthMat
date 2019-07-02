@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9DFCBA5-2934-4B73-86EA-F2A5F7257B58}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>UnisimClassLibrary</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>UnisimClassLibrary</RootNamespace>
+    <StartupObject>UnisimClassLibrary.%28Nessuno%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>UnisimClassLibrary.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>UnisimClassLibrary.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\CyclicProducer.vb" />
+    <Compile Include="general\DirtyFlaggableArrayList.vb" />
+    <Compile Include="general\DirtyFlaggableList.vb" />
+    <Compile Include="general\IDirtyFlaggable.vb" />
+    <Compile Include="general\IExpression.vb" />
+    <Compile Include="general\IGraphicalObject.vb" />
+    <Compile Include="general\IPureConnectable.vb" />
+    <Compile Include="general\MakeWindowMacLike.vb" />
+    <Compile Include="GlobalVariables.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\Hydra.vb" />
+    <Compile Include="InteractionGroup\Controls\ExecuteBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Controls\PousTree.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Controls\ResourceTree.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Controls\VariableControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Controls\VariablesListControlPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Controls\VariablesListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\ActionDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\ContactDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\CoilDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\CommentsDialogForm.Designer.vb">
+      <DependentUpon>CommentsDialogForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\CommentsDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\DeviceIdDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\FBDBlockChooser.Designer.vb">
+      <DependentUpon>FBDBlockChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\FBDBlockChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\FBDParametersReorder.Designer.vb">
+      <DependentUpon>FBDParametersReorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\FBDParametersReorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\FBDVariableBlock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\LDBlockChooser.designer.vb">
+      <DependentUpon>LDBlockChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\LDBlockChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\LDParametersReorder.designer.vb">
+      <DependentUpon>LDParametersReorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\LDParametersReorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\MacroStepDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\PouDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\PouListDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\PrintOptionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\ProgressForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\ProjectDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\projectInfoDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\ResizePanelDialogForm.Designer.vb">
+      <DependentUpon>ResizePanelDialogForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\ResizePanelDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\StepDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\TaskDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\TransitionDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\VariableDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\VariablesListDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\VariablesSelectorDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\DialogForms\xmlProjectViewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Forms\DocumentationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Forms\FormFbd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Forms\FormLadder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteractionGroup\Forms\FormSfc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PlcGroup\BaseIODriver.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlcGroup\ControlEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlcGroup\IOInterface.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlcGroup\SimulatorEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\Preferences.vb" />
+    <Compile Include="ProjectGroup\instanceGroup\Configuration.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\instanceGroup\Instances.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\instanceGroup\pouInstance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\instanceGroup\Resource.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\instanceGroup\Task.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\Project.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\contentHeader\ContentHeader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\fileHeader\FileHeder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\BaseVariable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\BooleanVariable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\IntegerVariable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\RealVariable.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\VariablesList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\VariablesLists.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\dataTypes\VariablesManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Body.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\commonObjects\ActionBlock.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\commonObjects\ArithmeticExpression.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\commonObjects\ConnectionPointIn.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\commonObjects\ConnectionPointOut.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\commonObjects\GraphicalAction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\IDocumentable.vb" />
+    <Compile Include="general\IEditorForm.vb" />
+    <Compile Include="general\IIEC61131LanguageImplementation.vb" />
+    <Compile Include="general\IUniSimMainWindow.vb" />
+    <Compile Include="general\IXMLSerializable.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\FBD.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\FBDBlocks.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\FBDBlocksFactory.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\GraphicalFBDBlock.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\GraphicalFBDBlocksList.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\GraphicalFBDConnection.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\GraphicalFBDConnectionsList.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\GraphicalVariable.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\GraphicalVariablesList.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\IFBDConnectable.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\FBDTree.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\FBD\FBDTreeNode.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\interface\pouInterface.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\BaseGraphicalContact.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalConnection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalConnectionList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalConnectionRail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalContact.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalContactList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalLeftRail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\GraphicalRightRail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\ILDConnectable.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\Ladder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\LDBlocks.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\LDBlocksFactory.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\LDTree.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\LDTreeNode.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Ladder\Rung.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Pou.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\pouAction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Pous.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\pouTransition.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\BaseGraphicalStep.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\commonObjects\BooleanExpression.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\ConvergenceDivergence.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\GraficalMacroStep.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\GraphicalStep.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\GraphicalStepList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\GraphicalTransition.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\GraphicalTransitionsList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\LogicalInterpreter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\Sfc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\pous\Sfc\SFC2Ladder.vb" />
+    <Compile Include="ProjectGroup\projectInfoGroup\typesGroup\Types.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\ResourceTable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectGroup\XMLProjectManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\UniSimVersion.vb" />
+    <EmbeddedResource Include="InteractionGroup\Controls\ExecuteBar.resx">
+      <DependentUpon>ExecuteBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Controls\PousTree.resx">
+      <DependentUpon>PousTree.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Controls\ResourceTree.resx">
+      <DependentUpon>ResourceTree.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Controls\VariableControl.resx">
+      <DependentUpon>VariableControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Controls\VariablesListControlPanel.resx">
+      <DependentUpon>VariablesListControlPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Controls\VariablesListForm.resx">
+      <DependentUpon>VariablesListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\ActionDialogForm.resx">
+      <DependentUpon>ActionDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\ContactDialogForm.resx">
+      <DependentUpon>ContactDialogForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\CoilDialogForm.resx">
+      <DependentUpon>CoilDialogForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\CommentsDialogForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommentsDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\DeviceIdDialogForm.resx">
+      <DependentUpon>DeviceIdDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\FBDBlockChooser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FBDBlockChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\FBDParametersReorder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FBDParametersReorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\FBDVariableBlock.resx">
+      <DependentUpon>FBDVariableBlock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\LDBlockChooser.resx">
+      <DependentUpon>LDBlockChooser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\LDParametersReorder.resx">
+      <DependentUpon>LDParametersReorder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\MacroStepDialogForm.resx">
+      <DependentUpon>MacroStepDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\PouDialogForm.resx">
+      <DependentUpon>PouDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\PouListDialogForm.resx">
+      <DependentUpon>PouListDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\PrintOptionForm.resx">
+      <DependentUpon>PrintOptionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\ProgressForm.resx">
+      <DependentUpon>ProgressForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\ProjectDialogForm.resx">
+      <DependentUpon>ProjectDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\projectInfoDialogForm.resx">
+      <DependentUpon>projectInfoDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\ResizePanelDialogForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResizePanelDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\StepDialogForm.resx">
+      <DependentUpon>StepDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\TaskDialogForm.resx">
+      <DependentUpon>TaskDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\TransitionDialogForm.resx">
+      <DependentUpon>TransitionDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\VariableDialogForm.resx">
+      <DependentUpon>VariableDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\VariablesListDialogForm.resx">
+      <DependentUpon>VariablesListDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\VariablesSelectorDialogForm.resx">
+      <DependentUpon>VariablesSelectorDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\DialogForms\xmlProjectViewForm.resx">
+      <DependentUpon>xmlProjectViewForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Forms\FormFbd.resx">
+      <DependentUpon>FormFbd.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Forms\FormLadder.resx">
+      <DependentUpon>FormLadder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractionGroup\Forms\FormSfc.resx">
+      <DependentUpon>FormSfc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\delete.ico" />
+    <Content Include="icons\DownArrow.ico" />
+    <Content Include="icons\FBDDisconnectObject.ico" />
+    <Content Include="icons\Empty.ico" />
+    <Content Include="icons\FBD.ico" />
+    <Content Include="icons\FBDBlock.ico" />
+    <Content Include="icons\FBDConnection.ico" />
+    <Content Include="icons\FBDVariable.ico" />
+    <Content Include="icons\LD.ico" />
+    <Content Include="icons\SFC.ico" />
+    <Content Include="icons\SwapParams.ico" />
+    <Content Include="icons\UpArrow.ico" />
+    <Content Include="icons\VarList.ico" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Resources\Mac Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

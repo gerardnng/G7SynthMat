@@ -1,0 +1,1 @@
+NNG: In this version, I modify the way of generation of the static matrices in other to render them logic. It is necessary for me to understand carefully the project by correcting some problems of conception and implementation of some classes 

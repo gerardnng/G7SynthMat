@@ -1,0 +1,14 @@
+Questa tabella contiene i valori di Id che sono stati usati nell'implementazione Ladder di UniSim. Finchè non sarà presa in considerazione una riscrittura del codice in modo più OO, fare riferimento a questa tabella, non riutilizzare i valori già usati e aggiungere i nuovi valori che si creano
+
+|-----|--------------------|
+| ID  |	Tipo oggetto       |
+|-----|--------------------|
+|-----|--------------------|
+|  1  | contatto           |
+|-----|--------------------|
+|  2  | bobina             |
+|-----|--------------------|
+|  3  | blocco             |
+|-----|--------------------|
+| 20  | alimentazioni      |
+|-----|--------------------|

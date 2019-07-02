@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UniSim">
+</Property><Property Name="Solution File" Value="C:\Users\enricogranata\Documents\Università\Tirocinio\UniSim\UniSim.sln">
+</Property><Property Name="Date" Value="martedì 31 luglio 2007">
+</Property><Property Name="Time" Value="15.59.33">
+</Property></Properties><Event ErrorLevel="1" Project="C:\Users\enricogranata\Documents\Università\Tirocinio\UniSim\UnisimClassLibrary\UnisimClassLibrary.vbproj" Source="UnisimClassLibrary\UnisimClassLibrary.vbproj" Description="MSB2016: Found an empty .RESX file in the project (InteractionGroup\Forms\DocumentationForm.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="0" Project="UnisimClassLibrary" Source="UnisimClassLibrary\UnisimClassLibrary.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UnisimClassLibrary" Source="UnisimClassLibrary\UnisimClassLibrary.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UnisimClassLibrary" Source="UnisimClassLibrary\UnisimClassLibrary.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<micros>
+	<microcontroller name="ATmega328P" family = "Atmel AVR-Arduino Uno" manufacturer="Microchip Tech.">
+		<architecture size = "8" unit = "bits"/>
+		<processor speed="16" unit ="MHz"/>
+		<RamMemory type = "SRAM" size = "2" unit = "Ko"/>
+		<ProgramMemory type = "flash" size = "32" unit = "Ko"/>
+		<DataMemory type = "EEPROM" size = "1" unit = "Ko"/>
+		
+		<DigitalPINS pincount = "32">
+			<PIN address = "0" type = "IO"/>
+			<PIN address = "1" type = "IO"/>
+			<PIN address = "2" type = "IO"/>
+			<PIN address = "3" type = "IO"/>
+			<PIN address = "4" type = "IO"/>
+			<PIN address = "5" type = "IO"/>
+			<PIN address = "6" type = "IO"/>
+			<PIN address = "7" type = "IO"/>
+			<PIN address = "8" type = "IO"/>
+			<PIN address = "9" type = "IO"/>
+			<PIN address = "10" type = "IO"/>
+			<PIN address = "11" type = "IO"/>
+			<PIN address = "12" type = "IO"/>
+			<PIN address = "13" type = "IO"/>
+		</DigitalPINS>
+		<AnalogPINS pincount = "6">
+			<PIN address = "A0" type = "In"/>
+			<PIN address = "A1" type = "In"/>
+			<PIN address = "A2" type = "In"/>
+			<PIN address = "A3" type = "In"/>
+			<PIN address = "A4" type = "In"/>
+			<PIN address = "A5" type = "In"/>
+		</AnalogPINS>
+		<usefulFunctions>
+			<SourceCode_Header path="../boards_settings/ATmega328P/sc_header.c"/>
+			
+			<SourceCode_ReadPins path="../boards_settings/ATmega328P/sc_read_pins.c"/>
+			<SourceCode_WritePins path="../boards_settings/ATmega328P/sc_write_pins.c"/>
+			<SourceCode_PINModeConfig path="../boards_settings/ATmega328P/sc_pinMode_config.c"/>
+			
+			<SourceCode_TimerDefinition path="../boards_settings/ATmega328P/sc_timer_definition.c"/>
+			
+			<SourceCode_ReadInMemory path="../boards_settings/ATmega328P/sc_readInMemory.c"/>
+			<SourceCode_WriteInMemory path="../boards_settings/ATmega328P/sc_writeInMemory.c"/>
+		</usefulFunctions>
+	</microcontroller>
+	<microcontroller name="ATmega1280" family = "Atmel AVR-Arduino MEGA" manufacturer="Microchip Tech.">
+		<architecture size = "8" unit = "bits"/>
+		<processor speed="16" unit ="MHz"/>
+		<RamMemory type = "SRAM" size = "8" unit = "Ko"/>
+		<ProgramMemory type = "flash" size = "128" unit = "Ko"/>
+		<DataMemory type = "EEPROM" size = "4" unit = "Ko"/>
+		
+		<DigitalPINS pincount = "32">
+			<PIN address = "0" type = "IO"/>
+			<PIN address = "1" type = "IO"/>
+			<PIN address = "2" type = "IO"/>
+			<PIN address = "3" type = "IO"/>
+			<PIN address = "4" type = "IO"/>
+			<PIN address = "5" type = "IO"/>
+			<PIN address = "6" type = "IO"/>
+			<PIN address = "7" type = "IO"/>
+			<PIN address = "8" type = "IO"/>
+			<PIN address = "9" type = "IO"/>
+			<PIN address = "10" type = "IO"/>
+			<PIN address = "11" type = "IO"/>
+			<PIN address = "12" type = "IO"/>
+			<PIN address = "13" type = "IO"/>
+			<PIN address = "14" type = "IO"/>
+			<PIN address = "15" type = "IO"/>
+			<PIN address = "16" type = "IO"/>
+			<PIN address = "17" type = "IO"/>
+			<PIN address = "18" type = "IO"/>
+			<PIN address = "19" type = "IO"/>
+			<PIN address = "20" type = "IO"/>
+			<PIN address = "21" type = "IO"/>
+			<PIN address = "22" type = "IO"/>
+			<PIN address = "23" type = "IO"/>
+			<PIN address = "24" type = "IO"/>
+			<PIN address = "25" type = "IO"/>
+			<PIN address = "26" type = "IO"/>
+			<PIN address = "27" type = "IO"/>
+			<PIN address = "28" type = "IO"/>
+			<PIN address = "29" type = "IO"/>
+			<PIN address = "30" type = "IO"/>
+			<PIN address = "31" type = "IO"/>
+			<PIN address = "32" type = "IO"/>
+			<PIN address = "33" type = "IO"/>
+			<PIN address = "34" type = "IO"/>
+			<PIN address = "35" type = "IO"/>
+			<PIN address = "36" type = "IO"/>
+			<PIN address = "37" type = "IO"/>
+			<PIN address = "38" type = "IO"/>
+			<PIN address = "39" type = "IO"/>
+			<PIN address = "40" type = "IO"/>
+			<PIN address = "41" type = "IO"/>
+			<PIN address = "42" type = "IO"/>
+			<PIN address = "43" type = "IO"/>
+			<PIN address = "44" type = "IO"/>
+			<PIN address = "45" type = "IO"/>
+			<PIN address = "46" type = "IO"/>
+			<PIN address = "47" type = "IO"/>
+			<PIN address = "48" type = "IO"/>
+			<PIN address = "49" type = "IO"/>
+			<PIN address = "50" type = "IO"/>
+			<PIN address = "51" type = "IO"/>
+			<PIN address = "52" type = "IO"/>
+			<PIN address = "53" type = "IO"/>
+		</DigitalPINS>
+		<AnalogPINS pincount = "32">
+			<PIN address = "A0" type = "In"/>
+			<PIN address = "A1" type = "In"/>
+			<PIN address = "A2" type = "In"/>
+			<PIN address = "A3" type = "In"/>
+			<PIN address = "A4" type = "In"/>
+			<PIN address = "A5" type = "In"/>
+			<PIN address = "A6" type = "In"/>
+			<PIN address = "A7" type = "In"/>
+			<PIN address = "A8" type = "In"/>
+			<PIN address = "A9" type = "In"/>
+			<PIN address = "A10" type = "In"/>
+			<PIN address = "A11" type = "In"/>
+			<PIN address = "A12" type = "In"/>
+			<PIN address = "A13" type = "In"/>
+			<PIN address = "A14" type = "In"/>
+		</AnalogPINS>
+		<usefulFunctions>
+			<SourceCode_Header path="../boards_settings/ATmega328P/sc_header.c"/>
+			
+			<SourceCode_ReadPins path="../boards_settings/ATmega328P/sc_read_pins.c"/>
+			<SourceCode_WritePins path="../boards_settings/ATmega328P/sc_write_pins.c"/>
+			<SourceCode_PINModeConfig path="../boards_settings/ATmega328P/sc_pinMode_config.c"/>
+			
+			<SourceCode_TimerDefinition path="../boards_settings/ATmega328P/sc_timer_definition.c"/>
+			
+			<SourceCode_ReadInMemory path="../boards_settings/ATmega328P/sc_readInMemory.c"/>
+			<SourceCode_WriteInMemory path="../boards_settings/ATmega328P/sc_writeInMemory.c"/>
+		</usefulFunctions>
+	</microcontroller>
+</micros>
